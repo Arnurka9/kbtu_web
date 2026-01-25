@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgba(29, 197, 43, 0.597);
+    border: 2px solid rgba(29, 197, 43, 0.597);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(88, 43, 11);
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+p {
+    color: rgba(29, 197, 43, 0.597);
+    border: 2px solid rgba(29, 197, 43, 0.597);
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(88, 43, 11);
+    font-size: 20px;
+    padding: 10px 0px;
+}

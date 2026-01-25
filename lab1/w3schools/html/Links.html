@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Links</title>
+        <style>
+            #link_to_chapter {
+                display: block; /*by default  tag a is inline, so we use display: block for use margin-top: 2000px */
+                margin-top: 2000px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <a href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a><br>
+        <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
+        <a href="https://www.w3schools.com/" target="_parent">Visit W3Schools!</a><br>
+        <a href="https://www.w3schools.com/" target="_top">Visit W3Schools!</a><br>
+
+        <h2>Absolute URLs</h2>
+        <p><a href="https://www.w3.org/">W3C</a></p>
+        <p><a href="https://www.google.com/">Google</a></p>
+        
+        <h2>Relative URLs</h2>
+        <p><a href="https://www.pinterest.com/pin/948218896547035870/">Img</a></p>
+
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=u6GxG3NxcI7pmvPt" title="click me please"><img src="https://www.pinterest.com/pin/291326669649205574/" alt="HTML tutorial"></a><br><hr><br>
+        <button onclick="document.location='https://youtu.be/dQw4w9WgXcQ?si=u6GxG3NxcI7pmvPt'">HTML Tutorial</button>
+
+        <hr><br>
+        <h1 id="C1">chapter</h1>
+        <p>text</p>
+        
+        <a id="link_to_chapter" href="#C1">Jump to Chapter</a>
+    </body>
+</html>
