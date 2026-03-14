@@ -1,7 +1,7 @@
 from models import Animal, Dog, Cat
 
-animal = Animal("King", 8, 190, "Lion")
-dog = Dog("General Ruffs", 10, "Space hound dog")
+animal = Animal("King", 8, 190)
+dog = Dog("General Ruffs", 5, 10, "Space hound dog")
 cat = Cat("Murka", 2, 2, "Cat", "Ginger")
 
 animals = [animal, dog, cat]
@@ -14,4 +14,4 @@ for a in animals:
     print()
 
 print(dog.fetch())
-print(cat.sit_in_box)
+print(cat.sit_in_box())
